@@ -20,10 +20,6 @@ else:
     print(f'The number is found :) at the position of {result}.')
 
 
-
-
-
-
 '''
     Time Complexity : O(n)
 '''
