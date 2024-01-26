@@ -15,7 +15,7 @@ print(f"Before sorting Array : {list}")
 bubbleSort(list, len)
 
 print(f"After sorting Array : {list}")
-
+# print("After sorting Array : {}".format(list)
 
 '''
     Time Complexity : O(n^2)
