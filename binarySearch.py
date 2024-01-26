@@ -29,6 +29,7 @@ if result == -1:
 else:
     print(f'Number found at the location of {result}')
 
+
 '''
     Time Complexity : O(log n)
 '''
