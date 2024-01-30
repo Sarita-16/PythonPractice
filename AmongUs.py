@@ -15,7 +15,7 @@ def find_impostor_index(n, arr):
         else:
             element_count[arr[i]] = 1
     
-    # Find the element with count 1 (the impostor)
+    # Find the element with count 1 (impostor)
     impostor = None
     for key, value in element_count.items():
         if value == 1:
