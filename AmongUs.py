@@ -1,22 +1,12 @@
-n = int(input())
-list = []
-for i in range (n):
-    list.append(int(input()))
-
-for i in range(n):
-    for j in range(i+1, n):
-        if list[i] == list[j]:
-            continue
-
-        else:
-            index = list.index(list[j]) + 1
-            print(index)
-            break
-    break
-
-
 '''
-    def find_impostor_index(n, arr):
+Input :
+5
+8 8 78 8 8
+Output :
+3 (Index of odd/ different number)
+'''
+
+def find_impostor_index(n, arr):
     # Count occurrences of each element
     element_count = {}
     for i in range(n):
@@ -34,7 +24,6 @@ for i in range(n):
     
     # Find the index of the impostor
     impostor_index = arr.index(impostor) + 1
-    
     return impostor_index
 
 # Input reading
@@ -45,4 +34,3 @@ arr = list(map(int, input().split()))
 result = find_impostor_index(n, arr)
 print(result)
 
-'''
