@@ -1,6 +1,11 @@
 def quickSort(arr, len):
     print("")
 
+def devide(arr):
+    pass
+
+
+
 
 len = int(input("How many numbers want to insert: "))
 arr = []
