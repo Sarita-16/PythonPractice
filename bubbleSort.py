@@ -7,7 +7,7 @@ def bubbleSort(list, len):
 len = int(input("How many numbers you want to insert : "))
 print("Enter the numbers : ")
 list = []
-for i in range (len):
+for i in range(len):
     list.append(int(input()))
 
 print(f"Before sorting Array : {list}")
