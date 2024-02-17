@@ -17,6 +17,6 @@ str: This is the input string.
 
 str_ASCII_sum = 0
 for i in range(len(str_input)):
-    str_ASCII_sum += ord(str_input[i])
+    str_ASCII_sum += ord(str_input[i])      #ord(): Built-in function that returns ASCII value of any character
 
 print("Sum of ASCII value of all characters in the string:", str(str_ASCII_sum))
