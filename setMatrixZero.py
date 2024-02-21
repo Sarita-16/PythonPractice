@@ -47,15 +47,15 @@ col = int(input("Enter the numbers of column: "))
 print("Enter the numbers : ")
 matrix = createMatrix(row, col)
 
-# Priting the matrix
-print("Matrix : ", )
+# Printing the matrix
+print("Original Matrix : ", )
 for i in range(row):
     for j in range(col):
         print(matrix[i][j], end=" ")
     print()
 
 # Print the resulting matrix
-print("The final matrix : ")
+print("The Final Matrix : ")
 ans = zeroMatrix(matrix, row, col)
 for i in range(row):
     for j in range(col):
