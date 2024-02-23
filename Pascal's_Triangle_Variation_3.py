@@ -18,39 +18,9 @@ def pascalTriangle(row):
 
 
 row = int(input("Enter the ROW : "))
-print(f'{row}th row of Pascal Triangle is : ')
+print(f'Pascal Triangle upto {row}th row : ')
 result = pascalTriangle(row)
 for i in result:
     for ele in i:
         print(ele, end=" ")
     print()
-
-
-
-
-
-'''
-
-from typing import *
-
-def pascalTriangle(n : int) -> List[List[int]]:
-
-    def generateRow(row):
-        ans=1
-        ansRow=[]
-
-        ansRow.append(1)
-
-        for col in range (1, row):
-            ans=ans*(row-col)
-            ans=ans//col
-            ansRow.append(ans)
-            return ansRow
-
-    res=[[1]]
-
-    for i in range (2, n+1):
-        res.append(generateRow(i))
-    return res
-
-'''
