@@ -1,4 +1,4 @@
-def createStack():
+'''def createStack():
     stack = []
     return stack
 
@@ -34,5 +34,9 @@ print(str(pop(stack)) + " is Popped :] ")
 print(str(pop(stack)) + " is Popped :] ")
 #print(str(pop(stack)) + " is Popped :] ")
 
-print(str(peek(stack)) + " is the Top most item :}")
+print(str(peek(stack)) + " is the Top most item :}")        '''
+
+
+for i in range(5):
+    print(i)
 
