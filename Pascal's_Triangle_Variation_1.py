@@ -9,6 +9,6 @@ col = c-1
 res = 1
 for i in range(col):
     res = res * (row-i)
-    res = res / (i+1)
+    res = res // (i+1)
 
 print(f'The number at the position {(r, c)} is : {int(res)}')
