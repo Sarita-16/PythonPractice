@@ -1,6 +1,6 @@
 def threeSum(nums):
     result = []
-    nums.sort()  # Sorting the array to easily handle duplicates and for optimized solution
+    nums.sort()
 
     for i in range(len(nums) - 2):
         # Avoid duplicates for i
@@ -28,6 +28,8 @@ def threeSum(nums):
 
     return result
 
-
-nums = [-1, 0, 1, 2, -1, -4]
+n = int(input("How many numbers you want to insert : "))
+nums = []
+for i in range(n):
+    nums.append(int(input()))
 print(threeSum(nums))
