@@ -35,9 +35,10 @@ def spiral_order(matrix):
 
 # Test the function
 matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+print("The given Matrix : ")
 for i in range(len(matrix)):
     print(matrix[i])
-print(spiral_order(matrix))  # Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+print("Spiral Matrix : ", spiral_order(matrix))
 
 
 
