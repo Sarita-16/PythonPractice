@@ -27,5 +27,9 @@ def rotateImage(matrix):
 
 
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
+for i in range(len(matrix)):
+    print(matrix[i])
 result = rotateImage(matrix)
-print(result)
+print("Rotate 90° : ")
+for i in range(len(result)):
+    print(result[i])
