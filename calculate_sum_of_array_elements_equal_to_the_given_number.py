@@ -3,7 +3,7 @@ def equalORNot(arr,sum):
     for i in range(len(arr)):
         s = 0
         if arr[i] == sum:
-            result_pairs.append(arr[i], )
+            result_pairs.append((arr[i]))
         for j in range(i+1, len(arr)):
 
             s = arr[i] + arr[j]
@@ -18,5 +18,5 @@ arr = []
 print("Enter the elements : ")
 for i in range(n):
     arr.append(int(input()))
-sum = 7
+sum = 5
 equalORNot(arr,sum)
