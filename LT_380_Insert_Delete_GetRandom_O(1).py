@@ -6,14 +6,14 @@ class RandomizedSet:
         self.dict = {}
         self.list = []
 
-    def insert(self, val: int) -> bool:
+    def insert(self, val):
         if val in self.dict:
             return False
         self.dict[val] = len(self.list)
         self.list.append(val)
         return True
 
-    def remove(self, val: int) -> bool:
+    def remove(self, val):
         if val not in self.dict:
             return False
         last_element = self.list[-1]
@@ -24,7 +24,7 @@ class RandomizedSet:
         del self.dict[val]
         return True
 
-    def getRandom(self) -> int:
+    def getRandom(self):
         return random.choice(self.list)
 
 randomizedSet = RandomizedSet()
