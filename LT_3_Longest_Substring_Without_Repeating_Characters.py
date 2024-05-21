@@ -17,5 +17,5 @@ def lengthOfLongestSubstring(s):
 
 
 s = "abcabcbb"
-print("Length Of Longest Substring : ", lengthOfLongestSubstring(s))
+print("Length Of Longest Substring :  ", lengthOfLongestSubstring(s))
 
