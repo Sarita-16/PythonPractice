@@ -8,4 +8,4 @@ def uniquePaths(m, n):
     return dp[m - 1][n - 1]
 
 m, n = map(int, input("Enter the bottom-right corner, m and n separated by space: ").split())
-print(uniquePaths(m, n))
+print("Unique paths for the ROBOT to reach the bottom-right corner: ", uniquePaths(m, n))
