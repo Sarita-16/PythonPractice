@@ -7,6 +7,5 @@ def singleNumber(nums):
 
     return number
 
-
 nums = list(map(int, input("Enter the numbers : ").split()))
 print("Single element in the list is : ", singleNumber(nums))
