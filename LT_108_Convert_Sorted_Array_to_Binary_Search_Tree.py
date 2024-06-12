@@ -28,7 +28,8 @@ class Solution:
 sol = Solution()
 
 # A sorted array
-nums = [-10, -3, 0, 5, 9]
+nums = list(map(int, input("Enter a sorted array : ").split()))
+
 
 # Convert the sorted array to a BST
 bst_root = sol.sortedArrayToBST(nums)
