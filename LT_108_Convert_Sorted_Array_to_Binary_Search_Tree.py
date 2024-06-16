@@ -43,4 +43,4 @@ def pre_order_traversal(node):
     pre_order_traversal(node.right)
 
 # Print the BST nodes in pre-order traversal
-pre_order_traversal("BST nodes in pre-order traversal : ", bst_root)
+pre_order_traversal(" BST nodes in  pre-order traversal : ", bst_root)
