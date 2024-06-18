@@ -10,4 +10,5 @@ def singleNumber(nums):
 
     return ones
 
-print(singleNumber([0, 1, 0, 1, 0, 1, 99]))
+nums = list(map(int, input("Enter numbers : ").split()))
+print(singleNumber(nums))
