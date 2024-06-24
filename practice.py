@@ -385,13 +385,56 @@ print("Portion 3:", portion3)"""
 
 
 
-
+"""
 a = [1,2,3,8,6,0,9]
-print(len(a))
+print(len(a))"""
 
 
 
+# continue, break, pass
+for i in range(0, 5):
+    if i == 0:
+        continue
+    elif i == 4:
+        break
+    elif i == 2:
+        pass
+    else:
+        print(i)
 
 
 
+# slicing
+n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(n[2: 8: 2])       # [start : stop : jump/step]
 
+
+# Split & Join
+s = "Sarita Khatun Mollah"
+s_s = s.split(" ")
+
+print("Split : ", s_s)
+
+print("Join : ", ' '.join(s_s))
+
+
+# Lambda
+mul = lambda a, b : a * b
+print("Mul : ", mul(5, 2))
+
+
+
+# Constructor
+class base_1:
+    def __init__(self):
+        print("This is a constructor")
+
+print(base_1.__init__(""))
+
+
+
+# Destructor
+class base_2:
+    def __del__(self):
+        print("This is destructor")
+print(base_2.__del__(""))
