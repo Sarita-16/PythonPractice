@@ -390,7 +390,7 @@ a = [1,2,3,8,6,0,9]
 print(len(a))"""
 
 
-
+"""
 # continue, break, pass
 for i in range(0, 5):
     if i == 0:
@@ -438,3 +438,47 @@ class base_2:
     def __del__(self):
         print("This is destructor")
 print(base_2.__del__(""))
+"""
+
+
+"""
+
+
+shopping_cart = ["apple", "banana", "cherry"]
+print(shopping_cart)
+shopping_cart.append("date")  # Add an item
+print(shopping_cart)
+shopping_cart.remove("banana")  # Remove an item
+print(shopping_cart)
+shopping_cart[0] = "apricot"  # Change an item
+print(shopping_cart)
+
+
+
+l = [1,1,2,5,9,2,5,7,8,0,4,0]
+arr = set(l)
+print(f'Removing duplicate numbers & after sorting this array : {sorted(list(arr))}')
+"""
+
+
+
+
+# Multiplication by 2 without using arithmetic operators
+def multiply_by_2(x):
+    return x << 1
+
+# Example usage
+num = 5
+result = multiply_by_2(num)
+print(f"{num} multiplied by 2 is: {result}")  # Output: 5 multiplied by 2 is: 10
+
+
+
+# Division by 2 without using arithmetic operators
+def divide_by_2(x):
+    return x >> 1
+
+# Example usage
+num = 16
+result = divide_by_2(num)
+print(f"{num} divided by 2 is: {result}")  # Output: 16 divided by 2 is: 8
